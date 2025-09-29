@@ -1,0 +1,60 @@
+{
+  "timestamp": "2025-09-27T23:26:03.039948",
+  "village_name": "Hoskote",
+  "parameters_used": {
+    "village": "Hoskote",
+    "token": "7a595d8a1220aff666900c02312f9c7dcaf630e4"
+  },
+  "village_data": [
+    {
+      "name": "Hoskote",
+      "vid": "2917000601411600",
+      "no_hh": "133",
+      "tot_p": "708",
+      "tot_m": "364",
+      "tot_f": "344",
+      "p_sc": "109",
+      "m_sc": "81",
+      "f_sc": "78",
+      "p_st": "0",
+      "m_st": "2",
+      "f_st": "2",
+      "m_lit": "335",
+      "f_lit": "255",
+      "dist_name": "Chikmagalur",
+      "tehs_name": "Chikmagalur",
+      "state_name": "KARNATAKA",
+      "longitude": "75.8657",
+      "latitude": "13.3044"
+    },
+    {
+      "name": "Hoskote",
+      "vid": "2918000501539800",
+      "no_hh": "144",
+      "tot_p": "774",
+      "tot_m": "398",
+      "tot_f": "376",
+      "p_sc": "129",
+      "m_sc": "89",
+      "f_sc": "75",
+      "p_st": "72",
+      "m_st": "34",
+      "f_st": "41",
+      "m_lit": "236",
+      "f_lit": "179",
+      "dist_name": "Tumkur",
+      "tehs_name": "Koratagere",
+      "state_name": "KARNATAKA",
+      "longitude": "77.2116",
+      "latitude": "13.4652"
+    }
+  ],
+  "summary": {
+    "found": false,
+    "state": null,
+    "district": null,
+    "coordinates": null,
+    "population": null,
+    "census_year": "2001"
+  }
+}

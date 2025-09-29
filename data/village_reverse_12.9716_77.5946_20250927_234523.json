@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-09-27T23:45:23.925423",
+  "coordinates": {
+    "lat": 12.9716,
+    "lng": 77.5946
+  },
+  "parameters_used": {
+    "lat": 12.9716,
+    "lon": 77.5946,
+    "token": "be77600ae8e10525fed3b655302d231edc170182"
+  },
+  "village_data": false,
+  "summary": {
+    "village_found": false,
+    "village_name": null,
+    "state": null,
+    "district": null,
+    "population": null,
+    "census_year": "2001",
+    "distance_from_query": null
+  }
+}

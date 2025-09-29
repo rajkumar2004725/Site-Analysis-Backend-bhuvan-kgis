@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-09-27T23:25:29.576466",
+  "coordinates": {
+    "lat": 13.0731,
+    "lng": 77.5901
+  },
+  "theme": "all",
+  "buffer_meters": 3000,
+  "parameters_used": {
+    "lat": 13.0731,
+    "lon": 77.5901,
+    "buffer": 3000,
+    "theme": "all",
+    "token": "69f890a8dc5725a7dfb7bb000ac5b58ed58a26a7"
+  },
+  "proximity_data": null,
+  "summary": {
+    "total_facilities": 0,
+    "hospitals": 0,
+    "post_offices": 0,
+    "facilities_by_type": {}
+  }
+}

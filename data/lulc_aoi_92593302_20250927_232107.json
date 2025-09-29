@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-09-27T23:21:07.932899",
+  "geometry_wkt": "POLYGON((77.5946 12.9716,77.6 12.9716,77.6 12.98,77.5946 12.98,77.5946 12.9716))",
+  "parameters_used": {
+    "geom": "POLYGON((77.5946 12.9716,77.6 12.9716,77.6 12.98,77.5946 12.98,77.5946 12.9716))",
+    "token": "132d3e75a7a77996ab2a35d4a5fa7c236417f2e4"
+  },
+  "aoi_data": [
+    {
+      "State": "KA",
+      "'l01'": 0.56
+    }
+  ],
+  "summary": {
+    "total_area": 0,
+    "lulc_classes": {},
+    "states_covered": [],
+    "dominant_lulc_class": null
+  }
+}
