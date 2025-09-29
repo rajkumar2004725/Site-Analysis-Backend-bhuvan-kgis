@@ -22,83 +22,83 @@ Request body :
 curl :
     
     curl -X 'POST' \
-  'http://127.0.0.1:8000/api/thematic_statistics' \
-  -H 'accept: application/json' \
-  -H 'Content-Type: application/json' \
-  -d '{
-  "coordinates": {
-    "lat": 12.9716,
-    "lng": 77.5946
-  },
-  "details": {
-    "distcode": "2921",
-    "year": "1112"
-  }
-}'
+	  'http://127.0.0.1:8000/api/thematic_statistics' \
+	  -H 'accept: application/json' \
+	  -H 'Content-Type: application/json' \
+	  -d '{
+	  "coordinates": {
+	    "lat": 12.9716,
+	    "lng": 77.5946
+	  },
+	  "details": {
+	    "distcode": "2921",
+	    "year": "1112"
+	  }
+	}'
 
 
 	
 Response body:
 
         {
-  "data": {
-    "lulc_statistics": {
-      "0": "Bengaluru Rural",
-      "1": "2303",
-      "2": "63.63               ",
-      "3": "60.32               ",
-      "4": "20.82               ",
-      "5": "998.64              ",
-      "6": "743.67              ",
-      "7": "94.01               ",
-      "8": "0.0                 ",
-      "9": "0.0                 ",
-      "10": "8.96                ",
-      "11": "61.23               ",
-      "12": "64.57               ",
-      "13": "0.0                 ",
-      "14": "0.0                 ",
-      "15": "0.75                ",
-      "16": "5.89                ",
-      "17": "56.33               ",
-      "18": "0.0                 ",
-      "19": "14.35               ",
-      "20": "0.0                 ",
-      "21": "0.0                 ",
-      "22": "0.0                 ",
-      "23": "2.87                ",
-      "24": "106.94              ",
-      "25": "0.0                 ",
-      "name": "Bengaluru Rural",
-      "totalarea": "2303",
-      "l01": "63.63               ",
-      "l02": "60.32               ",
-      "l03": "20.82               ",
-      "l04": "998.64              ",
-      "l05": "743.67              ",
-      "l06": "94.01               ",
-      "l07": "0.0                 ",
-      "l08": "0.0                 ",
-      "l09": "8.96                ",
-      "l10": "61.23               ",
-      "l11": "64.57               ",
-      "l12": "0.0                 ",
-      "l13": "0.0                 ",
-      "l14": "0.75                ",
-      "l15": "5.89                ",
-      "l16": "56.33               ",
-      "l17": "0.0                 ",
-      "l18": "14.35               ",
-      "l19": "0.0                 ",
-      "l20": "0.0                 ",
-      "l21": "0.0                 ",
-      "l22": "2.87                ",
-      "l23": "106.94              ",
-      "l24": "0.0                 "
-    }
-  },
-  "error": null
-}
+	  "data": {
+	    "lulc_statistics": {
+	      "0": "Bengaluru Rural",
+	      "1": "2303",
+	      "2": "63.63               ",
+	      "3": "60.32               ",
+	      "4": "20.82               ",
+	      "5": "998.64              ",
+	      "6": "743.67              ",
+	      "7": "94.01               ",
+	      "8": "0.0                 ",
+	      "9": "0.0                 ",
+	      "10": "8.96                ",
+	      "11": "61.23               ",
+	      "12": "64.57               ",
+	      "13": "0.0                 ",
+	      "14": "0.0                 ",
+	      "15": "0.75                ",
+	      "16": "5.89                ",
+	      "17": "56.33               ",
+	      "18": "0.0                 ",
+	      "19": "14.35               ",
+	      "20": "0.0                 ",
+	      "21": "0.0                 ",
+	      "22": "0.0                 ",
+	      "23": "2.87                ",
+	      "24": "106.94              ",
+	      "25": "0.0                 ",
+	      "name": "Bengaluru Rural",
+	      "totalarea": "2303",
+	      "l01": "63.63               ",
+	      "l02": "60.32               ",
+	      "l03": "20.82               ",
+	      "l04": "998.64              ",
+	      "l05": "743.67              ",
+	      "l06": "94.01               ",
+	      "l07": "0.0                 ",
+	      "l08": "0.0                 ",
+	      "l09": "8.96                ",
+	      "l10": "61.23               ",
+	      "l11": "64.57               ",
+	      "l12": "0.0                 ",
+	      "l13": "0.0                 ",
+	      "l14": "0.75                ",
+	      "l15": "5.89                ",
+	      "l16": "56.33               ",
+	      "l17": "0.0                 ",
+	      "l18": "14.35               ",
+	      "l19": "0.0                 ",
+	      "l20": "0.0                 ",
+	      "l21": "0.0                 ",
+	      "l22": "2.87                ",
+	      "l23": "106.94              ",
+	      "l24": "0.0                 "
+	    }
+	  },
+	  "error": null
+	}
 
 
 Response headers:
@@ -222,57 +222,58 @@ Request URL
 	
 Response body
 
-        {
-  "data": {
-    "timestamp": "2025-09-27T23:21:07.932899",
-    "geometry_wkt": "POLYGON((77.5946 12.9716,77.6 12.9716,77.6 12.98,77.5946 12.98,77.5946 12.9716))",
-    "parameters_used": {
-      "geom": "POLYGON((77.5946 12.9716,77.6 12.9716,77.6 12.98,77.5946 12.98,77.5946 12.9716))",
-      "token": "132d3e75a7a77996ab2a35d4a5fa7c236417f2e4"
-    },
-    "aoi_data": [
-      {
-        "State": "KA",
-        "'l01'": 0.56
-      }
-    ],
-    "summary": {
-      "total_area": 0,
-      "lulc_classes": {},
-      "states_covered": [],
+	        {
+	  "data": {
+	    "timestamp": "2025-09-27T23:21:07.932899",
+	    "geometry_wkt": "POLYGON((77.5946 12.9716,77.6 12.9716,77.6 12.98,77.5946 12.98,77.5946 12.9716))",
+	    "parameters_used": {
+	      "geom": "POLYGON((77.5946 12.9716,77.6 12.9716,77.6 12.98,77.5946 12.98,77.5946 12.9716))",
+	      "token": "132d3e75a7a77996ab2a35d4a5fa7c236417f2e4"
+	    },
+	    "aoi_data": [
+	      {
+	        "State": "KA",
+	        "'l01'": 0.56
+	      }
+	    ],
+	    "summary": {
+	      "total_area": 0,
+	      "lulc_classes": {},
+	      "states_covered": [],
       "dominant_lulc_class": null
     }
-  },
-  "error": null
-}
+	  },
+	  "error": null
+	}
 
 
 	
 Response body
-Download
-{
-  "data": {
-    "timestamp": "2025-09-27T23:21:07.932899",
-    "geometry_wkt": "POLYGON((77.5946 12.9716,77.6 12.9716,77.6 12.98,77.5946 12.98,77.5946 12.9716))",
-    "parameters_used": {
-      "geom": "POLYGON((77.5946 12.9716,77.6 12.9716,77.6 12.98,77.5946 12.98,77.5946 12.9716))",
-      "token": "132d3e75a7a77996ab2a35d4a5fa7c236417f2e4"
-    },
-    "aoi_data": [
-      {
-        "State": "KA",
-        "'l01'": 0.56
-      }
-    ],
-    "summary": {
-      "total_area": 0,
-      "lulc_classes": {},
-      "states_covered": [],
+
+	{
+	  "data": {
+	    "timestamp": "2025-09-27T23:21:07.932899",
+	    "geometry_wkt": "POLYGON((77.5946 12.9716,77.6 12.9716,77.6 12.98,77.5946 12.98,77.5946 12.9716))",
+	    "parameters_used": {
+	      "geom": "POLYGON((77.5946 12.9716,77.6 12.9716,77.6 12.98,77.5946 12.98,77.5946 12.9716))",
+	      "token": "132d3e75a7a77996ab2a35d4a5fa7c236417f2e4"
+	    },
+	    "aoi_data": [
+	      {
+	        "State": "KA",
+	        "'l01'": 0.56
+	      }
+	    ],
+	    "summary": {
+	      "total_area": 0,
+	      "lulc_classes": {},
+	      "states_covered": [],
       "dominant_lulc_class": null
     }
-  },
-  "error": null
-}
+	  },
+	  "error": null
+	}
+	
 Response headers
 
         content-length: 481 
@@ -377,6 +378,7 @@ Curl
         }'
 
 Request URL
+
         http://127.0.0.1:8000/api/geoid_elevation
 
 Response body
@@ -457,24 +459,24 @@ Request URL
 Response body
 
         {
-  "data": {
-    "timestamp": "2025-09-27T23:31:28.837393",
-    "origin": {
-      "lat": 12.9716,
-      "lng": 77.5946
-    },
-    "destination": {
-      "lat": 12.2958,
-      "lng": 76.6394
-    },
-    "parameters_used": {
-      "lat1": 12.9716,
-      "lon1": 77.5946,
-      "lat2": 12.2958,
-      "lon2": 76.6394,
-      "token": "c63ff689b97698feb6f89a391554ba375ce533be"
-    },
-    "route_data": {
+	  "data": {
+	    "timestamp": "2025-09-27T23:31:28.837393",
+	    "origin": {
+	      "lat": 12.9716,
+	      "lng": 77.5946
+	    },
+	    "destination": {
+	      "lat": 12.2958,
+	      "lng": 76.6394
+	    },
+	    "parameters_used": {
+	      "lat1": 12.9716,
+	      "lon1": 77.5946,
+	      "lat2": 12.2958,
+	      "lon2": 76.6394,
+	      "token": "c63ff689b97698feb6f89a391554ba375ce533be"
+	    },
+	    "route_data": {
       "type": "FeatureCollection",
       "features": [
         {
@@ -18260,49 +18262,48 @@ Response headers
 
 Request body
 
-{
-  "village_name": "Hoskote"
-}
+	{
+	  "village_name": "Hoskote"
+	}
 
 
 Curl
 
-curl -X 'POST' \
-  'http://127.0.0.1:8000/api/village_geocoding' \
-  -H 'accept: application/json' \
-  -H 'Content-Type: application/json' \
-  -d '{
-  "village_name": "Hoskote"
-}'
+	curl -X 'POST' \
+	  'http://127.0.0.1:8000/api/village_geocoding' \
+	  -H 'accept: application/json' \
+	  -H 'Content-Type: application/json' \
+	  -d '{
+	  "village_name": "Hoskote"
+	}'
 
 Request URL
-http://127.0.0.1:8000/api/village_geocoding
 
-
+	http://127.0.0.1:8000/api/village_geocoding
 	
 Response body
 
-{
-  "data": {
-    "timestamp": "2025-09-28T00:21:47.759268",
-    "village_name": "Hoskote",
-    "parameters_used": {
-      "village": "Hoskote",
-      "token": "7a595d8a1220aff666900c02312f9c7dcaf630e4"
-    },
-    "village_data": [
-      {
-        "name": "Hoskote",
-        "vid": "2917000601411600",
-        "no_hh": "133",
-        "tot_p": "708",
-        "tot_m": "364",
-        "tot_f": "344",
-        "p_sc": "109",
-        "m_sc": "81",
-        "f_sc": "78",
-        "p_st": "0",
-        "m_st": "2",
+	{
+	  "data": {
+	    "timestamp": "2025-09-28T00:21:47.759268",
+	    "village_name": "Hoskote",
+	    "parameters_used": {
+	      "village": "Hoskote",
+	      "token": "7a595d8a1220aff666900c02312f9c7dcaf630e4"
+	    },
+	    "village_data": [
+	      {
+	        "name": "Hoskote",
+	        "vid": "2917000601411600",
+	        "no_hh": "133",
+	        "tot_p": "708",
+	        "tot_m": "364",
+	        "tot_f": "344",
+	        "p_sc": "109",
+	        "m_sc": "81",
+	        "f_sc": "78",
+	        "p_st": "0",
+	        "m_st": "2",
         "f_st": "2",
         "m_lit": "335",
         "f_lit": "255",
@@ -18342,20 +18343,20 @@ Response body
       "population": null,
       "census_year": "2001"
     }
-  },
-  "error": null
-}
+	  },
+	  "error": null
+	}
 
 Response headers
 
- content-length: 1044 
- content-type: application/json; charset=utf-8 
- cross-origin-opener-policy: same-origin 
- date: Sat,27 Sep 2025 18:51:47 GMT 
- referrer-policy: same-origin 
- server: WSGIServer/0.2 CPython/3.12.4 
- x-content-type-options: nosniff 
- x-frame-options: DENY 
+	 content-length: 1044 
+	 content-type: application/json; charset=utf-8 
+	 cross-origin-opener-policy: same-origin 
+	 date: Sat,27 Sep 2025 18:51:47 GMT 
+	 referrer-policy: same-origin 
+	 server: WSGIServer/0.2 CPython/3.12.4 
+	 x-content-type-options: nosniff 
+	 x-frame-options: DENY 
 
 
  ############################################################################################
@@ -18364,25 +18365,25 @@ Response headers
 
  Request body
 
-{
-  "coordinates": {
-    "lat": 12.9716,
-    "lng": 77.5946
-  }
-}
-Responses
+	{
+	  "coordinates": {
+	    "lat": 12.9716,
+	    "lng": 77.5946
+	  }
+	}
+
 Curl
 
-curl -X 'POST' \
-  'http://127.0.0.1:8000/api/village_reverse_geocoding' \
-  -H 'accept: application/json' \
-  -H 'Content-Type: application/json' \
-  -d '{
-  "coordinates": {
-    "lat": 12.9716,
-    "lng": 77.5946
-  }
-}'
+	curl -X 'POST' \
+	  'http://127.0.0.1:8000/api/village_reverse_geocoding' \
+	  -H 'accept: application/json' \
+	  -H 'Content-Type: application/json' \
+	  -d '{
+	  "coordinates": {
+	    "lat": 12.9716,
+	    "lng": 77.5946
+	  }
+	}'
 
 
 Request URL
@@ -18391,31 +18392,31 @@ Request URL
 
 Response body
 
-{
-  "data": {
-    "timestamp": "2025-09-27T23:45:23.925423",
-    "coordinates": {
-      "lat": 12.9716,
-      "lng": 77.5946
-    },
-    "parameters_used": {
-      "lat": 12.9716,
-      "lon": 77.5946,
-      "token": "be77600ae8e10525fed3b655302d231edc170182"
-    },
-    "village_data": false,
-    "summary": {
-      "village_found": false,
-      "village_name": null,
-      "state": null,
-      "district": null,
-      "population": null,
-      "census_year": "2001",
-      "distance_from_query": null
-    }
-  },
-  "error": null
-}
+	{
+	  "data": {
+	    "timestamp": "2025-09-27T23:45:23.925423",
+	    "coordinates": {
+	      "lat": 12.9716,
+	      "lng": 77.5946
+	    },
+	    "parameters_used": {
+	      "lat": 12.9716,
+	      "lon": 77.5946,
+	      "token": "be77600ae8e10525fed3b655302d231edc170182"
+	    },
+	    "village_data": false,
+	    "summary": {
+	      "village_found": false,
+	      "village_name": null,
+	      "state": null,
+	      "district": null,
+	      "population": null,
+	      "census_year": "2001",
+	      "distance_from_query": null
+	    }
+	  },
+	  "error": null
+	}
 Response headers
 
         content-length: 410 
